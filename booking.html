@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>booking</title>
+</head>
+<body background="images/page.png">
+<center>
+	<table border="1" width="960" bgcolor="#f2f3f4">
+		<tr>
+			<td colspan="6" height="30" text-align="center" bgcolor="#3F000F"><center><font face = "Verdana" color="#ffffff" size="4">Assignment-01, Web Design & Development Course, Batch-03, Roll-62</font></center></td><!-- <td>2</td><td>3</td><td>4</td><td>5</td><td>6</td> -->
+		</tr>
+		<tr bgcolor="#17202a">
+			<td width="960" height="200" colspan="6" ><a href="index.html"><img src="images/himage.jpeg" width="985" height="200" border="0"></a></td> <!-- <td>2</td> <td>3</td><td>4</td><td>5</td><td>6</td> -->
+		</tr>
+		<tr>
+			<td colspan="6" height="30" bgcolor="#17202a">
+				<table>
+					<tr>
+						<td width="700">
+							<a href="index.html"  target="_blank"><font face="Verdana" size="2" color="#ffffff">Home |</font></a>|
+							<a href="about.html"  target="_blank"><font face="Verdana" size="2" color="#ffffff">About Us |</font></a>|
+							<a href="package.html"  target="_blank"><font face="Verdana" size="2" color="#ffffff">Tour Packages |</font></a>|
+							<a href="booking.html"  target="_blank"><font face="Verdana" size="2" color="#ffffff">Booking |</font></a>|
+							<a href="regi.html"  target="_blank"><font face="Verdana" size="2" color="#ffffff">Registration |</font></a>|
+							<a href="http://www.online-dhaka.com/63_1356_24385_0-travel-information-of-dhaka-to-khulna.html"  target="_blank"><font face="Verdana" size="2" color="#ffffff">Travel to Khulna|</font></a>|
+							<a href="https://www.booking.com/city/bd/khulna.html" target="_blank"><font face="Verdana" size="2" color="#ffffff">Hotels in Khulna</font></a>	
+						</td>
+						<td width="260">
+							<form>
+							  <label for="searchBox"><font face="Verdana" size="2" color="#ffffff" >Search</font></label>
+							  <input type="search" id="searchBox" name="searchBox" size="24">
+							</form> 
+						</td>
+					</tr>
+				</table>
+			</td><!-- <td>2</td><td>3</td><td>4</td><td>5</td><td>6</td> -->
+		</tr>
+		<tr>
+			<td colspan="6" bgcolor="" width="" height="30" valign="middle" align="center">
+				<form>
+					<table width="600" border="1">
+						<tr>
+							<td colspan="3" bgcolor="#800000" width="" height="30" valign="middle" align="center">
+								<font face="Verdana" size="4" color="#ffffff" >Book Your Tour Package</font>
+							</td><!-- <td></td><td></td> -->
+						</tr>
+						<tr>
+							<td width="200" height="24" valign="middle" align="left">
+								<label for="tName" align="left"><font face="Verdana" size="3" color="#000000">Name:</font></label>
+							</td>
+							<td colspan="2">
+								<input type="text" id="tName" name="tName" size="60" placeholder="Type your name" required>
+							</td><!-- <td></td> -->
+						</tr>
+						<tr>
+							<td width="200" height="24" valign="middle" align="left">
+								<label for="tAddress" align="left"><font face="Verdana" size="3" color="#000000">Address:</font></label>
+							</td>
+							<td colspan="2">
+								<input type="text" id="tAddress" name="tAddress" size="60" placeholder="Type your address" required>
+							</td><!-- <td></td> -->
+						</tr>
+						<tr>
+							<td width="200" height="24" valign="middle" align="left">
+								<label for="tMail" align="left"><font face="Verdana" size="3" color="#000000">E-mail:</font></label>
+							</td>
+							<td colspan="2">
+								<input type="mail" id="tMail" name="tMail" size="60" placeholder="Type your e-mail address">
+							</td><!-- <td></td> -->
+						</tr>
+						<tr>
+							<td width="200" height="24" valign="middle" align="left">
+								<label for="tMob" align="left"><font face="Verdana" size="3" color="#000000">Mobile :</font></label>
+							</td>
+							<td colspan="2">
+								<input type="number" id="tMob" name="tMob" size="60" placeholder="Type your mobile number" required>
+							</td><!-- <td></td> -->
+						</tr>
+						<tr>
+							<td width="200" height="24" valign="middle" align="left">
+								<label for="tPackage" align="left"><font face="Verdana" size="3" color="#000000">Tour Package :</font></label>
+							</td>
+							<td colspan="2">
+								<select name="tPackage" id="tPackage">
+								    <option value="">Select a Package</option>
+								    <option value="Package-01 (2 Nights 3 Days)">Package-01 (2 Nights 3 Days)</option>
+								    <option value="Package-02 (3 Nights 4 Days)">Package-02 (3 Nights 4 Days)</option>
+								    <option value="Package-03 (4 Nights 5 Days)">Package-03 (4 Nights 5 Days)</option>
+								    <option value="Package-04 (5 Nights 6 Days)">Package-04 (5 Nights 6 Days)</option>
+								    
+							  	</select>
+							</td><!-- <td></td> -->
+						</tr>
+						<tr>
+							<td width="200" height="24" valign="middle" align="left">
+								<label for="tNumber" align="left"><font face="Verdana" size="3" color="#000000">Number of Tourist :</font></label>
+							</td>
+							<td colspan="2" width="">
+								<input type="number" id="tNumber" name="tNumber" size="26" placeholder="Type the number of tourist" required>
+							</td>
+						</tr>
+						<tr>
+							<td width="200" height="24" valign="middle" align="left">
+								<font face="Verdana" size="3" color="#000000">Payment Method :</font>
+							</td>
+							<font face="Verdana" size="3" color="#000000">
+							<td colspan="2">
+								<input type="radio" id="bkash" name="tPayment" value="BKash">
+								<font face="Verdana" size="3" color="#000000"><label for="bkash">BKash</label></font><br>
+								<input type="radio" id="rocket" name="tPayment" value="Rocket">
+								<font face="Verdana" size="3" color="#000000"><label for="rocket">Rocket</label></font><br>
+								<input type="radio" id="nagad" name="tPayment" value="Nagad">
+								<font face="Verdana" size="3" color="#000000"><label for="nagad">Nagad</label></font><br/>
+								<input type="radio" id="cCard" name="tPayment" value="Credit Card">
+								<font face="Verdana" size="3" color="#000000"><label for="cCard">Credit Card</label></font>
+							</td><!-- <td></td> -->
+						</tr>
+						<tr>
+							<td colspan="3">
+								<center><input type="submit" value="Submit"></center>
+							</td>
+						</tr>
+					</table>
+				</form>
+			</td> <!-- <td>2</td><td>3</td><td>4</td><td>5</td><td>6</td> -->
+			<tr>
+			<td colspan="6" height="30" bgcolor="#17202a">
+				<center>
+					<table border="0">
+						<tr>
+							<td width="320" height="150" align="center">
+								<a href="https://www.facebook.com/groups/2056914244524797" target="_blank"><img src="images/fb.png" width="40" height="40">&nbsp;&nbsp;</a>
+								<a href="https://twitter.com/" target="_blank"><img src="images/tt.png" width="40" height="40">&nbsp;&nbsp;</a>
+								<a href="https://www.instagram.com/" target="_blank"><img src="images/ins.png" width="40" height="40">&nbsp;&nbsp;</a>
+								<a href="https://www.youtube.com/c/servehumanfoundation" target="_blank"><img src="images/ut.png" width="40" height="40"></a>
+							</td>
+							<td width="320">
+								<font face="Verdana" size="2" color="#ffffff"><b>Contact Us</b></font><br/>
+								<font face="Verdana" size="2" color="#ffffff">Serve Human Foundation, Bangladesh</font><br/>
+								<font face="Verdana" size="2" color="#ffffff">Web Design and Development Course</font><br/>
+								<font face="Verdana" size="2" color="#ffffff">Batch-03</font><br/>
+								<font face="Verdana" size="2" color="#ffffff">Roll-62</font><br/>
+							</td>
+							<td width="320">
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d946889.9059954999!2d88.72645677469396!3d22.01940595165373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a004caac2c7b315%3A0x4716abcfbb16c93c!2z4Ka44KeB4Kao4KeN4Kam4Kaw4Kas4Kao!5e0!3m2!1sbn!2sbd!4v1629265728730!5m2!1sbn!2sbd" width="316" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+							</td>
+						</tr>
+					</table>
+				</center>
+			</td><!-- <td>2</td><td>3</td><td>4</td><td>5</td><td>6</td> -->
+		</tr>
+		</tr>
+	</table>
+</center>
+</body>
+</html>
